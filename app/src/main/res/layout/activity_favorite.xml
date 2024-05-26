@@ -63,7 +63,7 @@
                     android:layout_height="109dp"
                     android:layout_marginLeft="50dp"
                     android:layout_marginTop="20dp"
-                    android:src="@drawable/image_product" />
+                    android:src="@drawable/image_product__5_" />
 
                 <TextView
                     android:id="@+id/textView4"
@@ -168,7 +168,7 @@
                     android:layout_height="109dp"
                     android:layout_marginLeft="50dp"
                     android:layout_marginTop="20dp"
-                    android:src="@drawable/image_product" />
+                    android:src="@drawable/image_product__3_" />
 
                 <TextView
                     android:id="@+id/textView12"
@@ -217,7 +217,7 @@
                     android:layout_height="109dp"
                     android:layout_marginLeft="50dp"
                     android:layout_marginTop="20dp"
-                    android:src="@drawable/image_product" />
+                    android:src="@drawable/image_product__1_" />
 
                 <TextView
                     android:id="@+id/textView16"

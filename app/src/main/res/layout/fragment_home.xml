@@ -98,15 +98,14 @@
 
         <HorizontalScrollView
             android:id="@+id/horizontalScrollViewH1"
-            android:layout_width="407dp"
-            android:layout_height="130dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:fillViewport="true"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="400dp"
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="390dp">
+           >
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -120,7 +119,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:backgroundTint="@color/white"
-                    app:srcCompat="@drawable/product_icon" />
+                    app:srcCompat="@drawable/product_icon__3_" />
 
                 <ImageButton
                     android:id="@+id/imageButtonH2"
@@ -128,7 +127,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:backgroundTint="@color/white"
-                    app:srcCompat="@drawable/product_icon" />
+                    app:srcCompat="@drawable/product_icon__3_" />
+
 
                 <ImageButton
                     android:id="@+id/imageButtonH3"
@@ -136,7 +136,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:backgroundTint="@color/white"
-                    app:srcCompat="@drawable/product_icon" />
+                    app:srcCompat="@drawable/product_icon__1_" />
 
                 <ImageButton
                     android:id="@+id/imageButtonH4"
@@ -152,7 +152,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:backgroundTint="@color/white"
-                    app:srcCompat="@drawable/product_icon" />
+                    app:srcCompat="@drawable/product_icon__1_" />
 
                 <ImageButton
                     android:id="@+id/imageButtonH6"
@@ -191,15 +191,14 @@
 
         <HorizontalScrollView
             android:id="@+id/horizontalScrollViewH2"
-            android:layout_width="407dp"
+            android:layout_width="wrap_content"
             android:layout_height="220dp"
             android:fillViewport="true"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="580dp"
-            tools:layout_editor_absoluteX="5dp"
-            tools:layout_editor_absoluteY="560dp">
+            >
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -224,19 +223,38 @@
                         android:id="@+id/textViewH5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginLeft="5dp"
                         android:layout_marginTop="135dp"
-                        android:text="Sepatu"
+                        android:text="Nike Air Max 270"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewH5a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="150dp"
+                        android:text="React ENG"
                         android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textViewH6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="164dp"
-                        android:text="$10.00"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="175dp"
+                        android:text="$299,43"
                         android:textColor="@color/BiruLafyuu"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewH6a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="190dp"
+                        android:text="24% off"
+                        android:textColor="@color/red"
                         android:textStyle="bold" />
                 </FrameLayout>
 
@@ -252,25 +270,44 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        app:srcCompat="@drawable/image_product" />
+                        app:srcCompat="@drawable/image_product__1_" />
 
                     <TextView
                         android:id="@+id/textViewH7"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginLeft="5dp"
                         android:layout_marginTop="135dp"
-                        android:text="Sepatu"
+                        android:text="Nike Air Max 270"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewH7a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="150dp"
+                        android:text="React ENG"
                         android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textViewH8"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="164dp"
-                        android:text="$10.00"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="175dp"
+                        android:text="$299,43"
                         android:textColor="@color/BiruLafyuu"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewH8a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="190dp"
+                        android:text="24% off"
+                        android:textColor="@color/red"
                         android:textStyle="bold" />
                 </FrameLayout>
 
@@ -286,25 +323,44 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        app:srcCompat="@drawable/image_product" />
+                        app:srcCompat="@drawable/image_product__2_" />
 
                     <TextView
                         android:id="@+id/textViewH9"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginLeft="5dp"
                         android:layout_marginTop="135dp"
-                        android:text="Sepatu"
+                        android:text="Nike Air Max 270"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewH9a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="150dp"
+                        android:text="React ENG"
                         android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textViewH10"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="164dp"
-                        android:text="$10.00"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="175dp"
+                        android:text="$299,43"
                         android:textColor="@color/BiruLafyuu"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewH10a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="190dp"
+                        android:text="24% off"
+                        android:textColor="@color/red"
                         android:textStyle="bold" />
                 </FrameLayout>
 
@@ -320,25 +376,44 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        app:srcCompat="@drawable/image_product" />
+                        app:srcCompat="@drawable/image_product__3_" />
 
                     <TextView
                         android:id="@+id/textViewH11"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginLeft="5dp"
                         android:layout_marginTop="135dp"
-                        android:text="Sepatu"
+                        android:text="Nike Air Max 270"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewH11a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="150dp"
+                        android:text="React ENG"
                         android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textViewH12"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="164dp"
-                        android:text="$10.00"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="175dp"
+                        android:text="$299,43"
                         android:textColor="@color/BiruLafyuu"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewH12a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="190dp"
+                        android:text="24% off"
+                        android:textColor="@color/red"
                         android:textStyle="bold" />
                 </FrameLayout>
 
@@ -370,8 +445,8 @@
 
         <HorizontalScrollView
             android:id="@+id/horizontalScrollViewH3"
-            android:layout_width="407dp"
-            android:layout_height="220dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:fillViewport="true"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -397,25 +472,44 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        app:srcCompat="@drawable/image_product" />
+                        app:srcCompat="@drawable/image_product__2_" />
 
                     <TextView
                         android:id="@+id/textViewH15"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginLeft="5dp"
                         android:layout_marginTop="135dp"
-                        android:text="Sepatu"
+                        android:text="Nike Air Max 270"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewH15a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="150dp"
+                        android:text="React ENG"
                         android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textViewH16"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="164dp"
-                        android:text="$10.00"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="175dp"
+                        android:text="$299,43"
                         android:textColor="@color/BiruLafyuu"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewH16a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="190dp"
+                        android:text="24% off"
+                        android:textColor="@color/red"
                         android:textStyle="bold" />
                 </FrameLayout>
 
@@ -431,25 +525,44 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        app:srcCompat="@drawable/image_product" />
+                        app:srcCompat="@drawable/image_product__3_" />
 
                     <TextView
                         android:id="@+id/textViewH17"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginLeft="5dp"
                         android:layout_marginTop="135dp"
-                        android:text="Sepatu"
+                        android:text="Nike Air Max 270"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewH17a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="150dp"
+                        android:text="React ENG"
                         android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textViewH18"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="164dp"
-                        android:text="$10.00"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="175dp"
+                        android:text="$299,43"
                         android:textColor="@color/BiruLafyuu"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewH18a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="190dp"
+                        android:text="24% off"
+                        android:textColor="@color/red"
                         android:textStyle="bold" />
                 </FrameLayout>
 
@@ -465,25 +578,44 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
-                        app:srcCompat="@drawable/image_product" />
+                        app:srcCompat="@drawable/image_product__1_" />
 
                     <TextView
                         android:id="@+id/textViewH19"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginLeft="5dp"
                         android:layout_marginTop="135dp"
-                        android:text="Sepatu"
+                        android:text="Nike Air Max 270"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewH19a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="150dp"
+                        android:text="React ENG"
                         android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textViewH20"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="164dp"
-                        android:text="$10.00"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="175dp"
+                        android:text="$299,43"
                         android:textColor="@color/BiruLafyuu"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewH20a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="190dp"
+                        android:text="24% off"
+                        android:textColor="@color/red"
                         android:textStyle="bold" />
                 </FrameLayout>
 
@@ -505,19 +637,38 @@
                         android:id="@+id/textViewH21"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginLeft="5dp"
                         android:layout_marginTop="135dp"
-                        android:text="Sepatu"
+                        android:text="Nike Air Max 270"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewH21a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="150dp"
+                        android:text="React ENG"
                         android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textViewH22"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="164dp"
-                        android:text="$10.00"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="175dp"
+                        android:text="$299,43"
                         android:textColor="@color/BiruLafyuu"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textViewH22a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="190dp"
+                        android:text="24% off"
+                        android:textColor="@color/red"
                         android:textStyle="bold" />
                 </FrameLayout>
 
@@ -560,26 +711,53 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:layout_marginLeft="25dp"
-                    app:srcCompat="@drawable/image_product" />
+                    android:layout_marginLeft="50dp"
+                    app:srcCompat="@drawable/image_product__4_" />
 
                 <TextView
-                    android:id="@+id/textViewH25"
+                    android:id="@+id/textView4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
-                    android:layout_marginTop="135dp"
-                    android:text="Sepatu"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginLeft="50dp"
+                    android:text="Nike Air Max 270"
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/textViewH26"
+                    android:id="@+id/textView5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
-                    android:layout_marginTop="164dp"
-                    android:text="$10.00"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="170dp"
+                    android:text="React ENG"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="195dp"
+                    android:src="@drawable/group_391" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="220dp"
+                    android:text="$299,43"
                     android:textColor="@color/BiruLafyuu"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="240dp"
+                    android:text="24% off"
+                    android:textColor="@color/red"
                     android:textStyle="bold" />
             </FrameLayout>
 
@@ -595,26 +773,53 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:layout_marginLeft="25dp"
-                    app:srcCompat="@drawable/image_product" />
+                    android:layout_marginLeft="50dp"
+                    app:srcCompat="@drawable/image_product__5_" />
 
                 <TextView
                     android:id="@+id/textViewH23"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
-                    android:layout_marginTop="135dp"
-                    android:text="Sepatu"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginLeft="50dp"
+                    android:text="Nike Air Max 270"
                     android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewH23a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="170dp"
+                    android:text="React ENG"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="195dp"
+                    android:src="@drawable/group_391" />
 
                 <TextView
                     android:id="@+id/textViewH24"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
-                    android:layout_marginTop="164dp"
-                    android:text="$10.00"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="220dp"
+                    android:text="$299,43"
                     android:textColor="@color/BiruLafyuu"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewH24a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="240dp"
+                    android:text="24% off"
+                    android:textColor="@color/red"
                     android:textStyle="bold" />
             </FrameLayout>
         </LinearLayout>
@@ -642,26 +847,53 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:layout_marginLeft="25dp"
-                    app:srcCompat="@drawable/image_product" />
+                    android:layout_marginLeft="50dp"
+                    app:srcCompat="@drawable/image_product__6_" />
 
                 <TextView
                     android:id="@+id/textViewH27"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
-                    android:layout_marginTop="135dp"
-                    android:text="Sepatu"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginLeft="50dp"
+                    android:text="Nike Air Max 270"
                     android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewH27a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="170dp"
+                    android:text="React ENG"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="195dp"
+                    android:src="@drawable/group_391" />
 
                 <TextView
                     android:id="@+id/textViewH28"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
-                    android:layout_marginTop="164dp"
-                    android:text="$10.00"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="220dp"
+                    android:text="$299,43"
                     android:textColor="@color/BiruLafyuu"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewH28a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="240dp"
+                    android:text="24% off"
+                    android:textColor="@color/red"
                     android:textStyle="bold" />
             </FrameLayout>
 
@@ -677,26 +909,53 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:layout_marginLeft="25dp"
-                    app:srcCompat="@drawable/image_product" />
+                    android:layout_marginLeft="50dp"
+                    app:srcCompat="@drawable/image_product__7_" />
 
                 <TextView
                     android:id="@+id/textViewH29"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
-                    android:layout_marginTop="135dp"
-                    android:text="Sepatu"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginLeft="50dp"
+                    android:text="Nike Air Max 270"
                     android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewH29a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="170dp"
+                    android:text="React ENG"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="195dp"
+                    android:src="@drawable/group_391" />
 
                 <TextView
                     android:id="@+id/textViewH30"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="25dp"
-                    android:layout_marginTop="164dp"
-                    android:text="$10.00"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="220dp"
+                    android:text="$299,43"
                     android:textColor="@color/BiruLafyuu"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewH30a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="240dp"
+                    android:text="24% off"
+                    android:textColor="@color/red"
                     android:textStyle="bold" />
             </FrameLayout>
         </LinearLayout>
