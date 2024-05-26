@@ -64,8 +64,7 @@
             android:id="@+id/imageViewH4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintEnd_toEndOf=""
-            app:layout_constraintTop_toTopOf=""
+
             app:srcCompat="@drawable/offer_banner"
             tools:layout_editor_absoluteX="33dp"
             tools:layout_editor_absoluteY="130dp" />
@@ -76,8 +75,7 @@
             android:layout_height="wrap_content"
             android:text="Category"
             android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf=""
-            app:layout_constraintTop_toTopOf=""
+
             tools:layout_editor_absoluteX="30dp"
             tools:layout_editor_absoluteY="371dp" />
 
@@ -88,8 +86,7 @@
             android:text="See All"
             android:textColor="@color/BiruLafyuu"
             android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf=""
-            app:layout_constraintTop_toTopOf=""
+
             tools:layout_editor_absoluteX="320dp"
             tools:layout_editor_absoluteY="371dp" />
 
@@ -98,8 +95,7 @@
             android:layout_width="407dp"
             android:layout_height="130dp"
             android:fillViewport="true"
-            app:layout_constraintEnd_toEndOf=""
-            app:layout_constraintTop_toTopOf=""
+
             tools:layout_editor_absoluteX="1dp"
             tools:layout_editor_absoluteY="390dp">
 
@@ -165,8 +161,7 @@
             android:layout_height="wrap_content"
             android:text="Flash Sale"
             android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf=""
-            app:layout_constraintTop_toTopOf=""
+
             tools:layout_editor_absoluteX="30dp"
             tools:layout_editor_absoluteY="545dp" />
 
@@ -177,8 +172,7 @@
             android:text="See All"
             android:textColor="@color/BiruLafyuu"
             android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf=""
-            app:layout_constraintTop_toTopOf=""
+
             tools:layout_editor_absoluteX="320dp"
             tools:layout_editor_absoluteY="545dp" />
 
@@ -187,8 +181,7 @@
             android:layout_width="407dp"
             android:layout_height="220dp"
             android:fillViewport="true"
-            app:layout_constraintEnd_toEndOf=""
-            app:layout_constraintTop_toTopOf=""
+
             tools:layout_editor_absoluteX="5dp"
             tools:layout_editor_absoluteY="560dp">
 
@@ -342,8 +335,7 @@
             android:layout_height="wrap_content"
             android:text="Mega Sale"
             android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf=""
-            app:layout_constraintTop_toTopOf=""
+
             tools:layout_editor_absoluteX="30dp"
             tools:layout_editor_absoluteY="795dp" />
 
@@ -354,8 +346,7 @@
             android:text="See All"
             android:textColor="@color/BiruLafyuu"
             android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf=""
-            app:layout_constraintTop_toTopOf=""
+
             tools:layout_editor_absoluteX="320dp"
             tools:layout_editor_absoluteY="795dp" />
 
@@ -364,8 +355,7 @@
             android:layout_width="407dp"
             android:layout_height="220dp"
             android:fillViewport="true"
-            app:layout_constraintEnd_toEndOf=""
-            app:layout_constraintTop_toTopOf=""
+
             tools:layout_editor_absoluteX="5dp"
             tools:layout_editor_absoluteY="810dp">
 
@@ -518,8 +508,7 @@
             android:id="@+id/imageViewH5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintEnd_toEndOf=""
-            app:layout_constraintTop_toTopOf=""
+
             app:srcCompat="@drawable/recomended_product_banner"
             tools:layout_editor_absoluteX="33dp"
             tools:layout_editor_absoluteY="1050dp" />
