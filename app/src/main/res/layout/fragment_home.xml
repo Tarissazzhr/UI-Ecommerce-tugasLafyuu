@@ -537,12 +537,16 @@
              />
 
         <LinearLayout
+            android:id="@+id/linearlayout1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
             android:layout_margin="10dp"
-            tools:layout_editor_absoluteX="33dp"
-            tools:layout_editor_absoluteY="1300dp">
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageViewH5"
+            app:layout_constraintVertical_bias="0.150" >
 
             <FrameLayout
                 android:layout_width="fill_parent"
@@ -620,8 +624,11 @@
             android:layout_height="match_parent"
             android:orientation="horizontal"
             android:layout_margin="10dp"
-            tools:layout_editor_absoluteX="33dp"
-            tools:layout_editor_absoluteY="1500dp">
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearlayout1"
+            app:layout_constraintVertical_bias="0.150">
 
             <FrameLayout
                 android:layout_width="fill_parent"
