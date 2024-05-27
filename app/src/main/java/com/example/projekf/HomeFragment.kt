@@ -63,18 +63,13 @@ class HomeFragment : Fragment() {
 
         }
         imageViewH4.setOnClickListener {
-            val offerFragment = OfferFragment()
-            val transaction = requireActivity().supportFragmentManager.beginTransaction()
-            transaction.replace(R.id.offer, offerFragment)
-            transaction.addToBackStack(null)
-            transaction.commit()
+            val intent = Intent(activity, OfferActivity::class.java)
+            startActivity(intent)
         }
+
         textViewH4.setOnClickListener {
-            val offerFragment = OfferFragment()
-            val transaction = requireActivity().supportFragmentManager.beginTransaction()
-            transaction.replace(R.id.offer, offerFragment)
-            transaction.addToBackStack(null)
-            transaction.commit()
+            val intent = Intent(activity, OfferActivity::class.java)
+            startActivity(intent)
         }
 
         imageButtonH7.setOnClickListener {
