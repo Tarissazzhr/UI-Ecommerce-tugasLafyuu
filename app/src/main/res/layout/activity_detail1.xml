@@ -65,6 +65,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
                 android:text="Nike Air Zoom Pegasus 36 Miami"
                 android:textSize="29dp"
                 android:textStyle="bold" />
