@@ -41,17 +41,33 @@ class HomeFragment : Fragment() {
         // Find the ImageView by its ID
         val imageViewH2 = view.findViewById<ImageView>(R.id.imageViewH2)
         val textViewH4 = view.findViewById<TextView>(R.id.textViewH4)
+        val imageViewH4 = view.findViewById<ImageView>(R.id.imageViewH4)
 
         val imageButtonH7 = view.findViewById<ImageView>(R.id.imageButtonH7)
         val imageButtonH8 = view.findViewById<ImageView>(R.id.imageButtonH8)
         val imageButtonH9 = view.findViewById<ImageView>(R.id.imageButtonH9)
         val imageButtonH10 = view.findViewById<ImageView>(R.id.imageButtonH10)
+        val imageButtonH11 = view.findViewById<ImageView>(R.id.imageButtonH11)
+        val imageButtonH12 = view.findViewById<ImageView>(R.id.imageButtonH12)
+        val imageButtonH13 = view.findViewById<ImageView>(R.id.imageButtonH13)
+        val imageButtonH14 = view.findViewById<ImageView>(R.id.imageButtonH14)
+        val imageButtonH15 = view.findViewById<ImageView>(R.id.imageButtonH15)
+        val imageButtonH16 = view.findViewById<ImageView>(R.id.imageButtonH16)
+        val imageButtonH17 = view.findViewById<ImageView>(R.id.imageButtonH17)
+        val imageButtonH18 = view.findViewById<ImageView>(R.id.imageButtonH18)
 
         // Set an OnClickListener to navigate to FavoriteActivity
         imageViewH2.setOnClickListener {
             val intent = Intent(activity, FavoriteActivity::class.java)
             startActivity(intent)
 
+        }
+        imageViewH4.setOnClickListener {
+            val offerFragment = OfferFragment()
+            val transaction = requireActivity().supportFragmentManager.beginTransaction()
+            transaction.replace(R.id.offer, offerFragment)
+            transaction.addToBackStack(null)
+            transaction.commit()
         }
         textViewH4.setOnClickListener {
             val offerFragment = OfferFragment()
@@ -74,6 +90,38 @@ class HomeFragment : Fragment() {
             startActivity(intent)
         }
         imageButtonH10.setOnClickListener {
+            val intent = Intent(activity, DetailActivity1::class.java)
+            startActivity(intent)
+        }
+        imageButtonH11.setOnClickListener {
+            val intent = Intent(activity, DetailActivity1::class.java)
+            startActivity(intent)
+        }
+        imageButtonH12.setOnClickListener {
+            val intent = Intent(activity, DetailActivity1::class.java)
+            startActivity(intent)
+        }
+        imageButtonH13.setOnClickListener {
+            val intent = Intent(activity, DetailActivity1::class.java)
+            startActivity(intent)
+        }
+        imageButtonH14.setOnClickListener {
+            val intent = Intent(activity, DetailActivity1::class.java)
+            startActivity(intent)
+        }
+        imageButtonH15.setOnClickListener {
+            val intent = Intent(activity, DetailActivity1::class.java)
+            startActivity(intent)
+        }
+        imageButtonH16.setOnClickListener {
+            val intent = Intent(activity, DetailActivity1::class.java)
+            startActivity(intent)
+        }
+        imageButtonH17.setOnClickListener {
+            val intent = Intent(activity, DetailActivity1::class.java)
+            startActivity(intent)
+        }
+        imageButtonH18.setOnClickListener {
             val intent = Intent(activity, DetailActivity1::class.java)
             startActivity(intent)
         }

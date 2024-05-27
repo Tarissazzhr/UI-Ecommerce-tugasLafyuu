@@ -80,7 +80,7 @@
             android:id="@+id/textViewH2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="See All"
+            android:text="More Category"
             android:textColor="@color/BiruLafyuu"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -106,13 +106,33 @@
                 android:layout_margin="5dp"
                 android:orientation="horizontal">
 
-                <ImageButton
-                    android:id="@+id/imageButtonH1"
+                <LinearLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:backgroundTint="@color/white"
-                    app:srcCompat="@drawable/product_icon__3_" />
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/imageButtonH1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/white"
+                        app:srcCompat="@drawable/product_icon__3_" />
+
+                    <TextView
+                        android:id="@+id/textViewCT1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Man Shirt"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
                 <ImageButton
                     android:id="@+id/imageButtonH2"
@@ -121,8 +141,20 @@
                     android:layout_weight="1"
                     android:backgroundTint="@color/white"
                     app:srcCompat="@drawable/product_icon__3_" />
+                <TextView
+                    android:id="@+id/textViewCT2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Dress"
+                    android:textStyle="bold" />
 
+            </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
                 <ImageButton
                     android:id="@+id/imageButtonH3"
                     android:layout_width="wrap_content"
@@ -130,6 +162,20 @@
                     android:layout_weight="1"
                     android:backgroundTint="@color/white"
                     app:srcCompat="@drawable/product_icon__1_" />
+                <TextView
+                    android:id="@+id/textViewCT3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Man Bag"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
                 <ImageButton
                     android:id="@+id/imageButtonH4"
@@ -138,6 +184,19 @@
                     android:layout_weight="1"
                     android:backgroundTint="@color/white"
                     app:srcCompat="@drawable/product_icon" />
+                <TextView
+                    android:id="@+id/textViewCT4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Woman Bag"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
                 <ImageButton
                     android:id="@+id/imageButtonH5"
@@ -146,6 +205,19 @@
                     android:layout_weight="1"
                     android:backgroundTint="@color/white"
                     app:srcCompat="@drawable/product_icon__1_" />
+                <TextView
+                    android:id="@+id/textViewCT5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Man Shoes"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
                 <ImageButton
                     android:id="@+id/imageButtonH6"
@@ -154,6 +226,15 @@
                     android:layout_weight="1"
                     android:backgroundTint="@color/white"
                     app:srcCompat="@drawable/product_icon" />
+                <TextView
+                    android:id="@+id/textViewCT5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Woman Shoes"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
             </LinearLayout>
         </HorizontalScrollView>
 
