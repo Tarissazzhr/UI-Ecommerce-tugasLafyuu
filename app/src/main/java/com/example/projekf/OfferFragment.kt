@@ -1,10 +1,13 @@
 package com.example.projekf
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageButton
+import android.widget.ImageView
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -34,7 +37,39 @@ class OfferFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_offer, container, false)
+        val view = inflater.inflate(R.layout.fragment_offer, container, false)
+
+        // Find the ImageButton by its ID
+        val imageButton2 = view.findViewById<ImageButton>(R.id.imageButton2)
+        val imageView4 = view.findViewById<ImageView>(R.id.imageView4)
+        val imageView6 = view.findViewById<ImageView>(R.id.imageView6)
+        val imageView8 = view.findViewById<ImageView>(R.id.imageView8)
+        val imageView10 = view.findViewById<ImageView>(R.id.imageView10)
+
+        // Set an OnClickListener to navigate back to the previous screen
+        imageButton2.setOnClickListener {
+            // Pop the current fragment off the back stack
+            requireActivity().supportFragmentManager.popBackStack()
+        }
+
+        imageView4.setOnClickListener {
+            val intent = Intent(activity, DetailActivity1::class.java)
+            startActivity(intent)
+        }
+        imageView6.setOnClickListener {
+            val intent = Intent(activity, DetailActivity1::class.java)
+            startActivity(intent)
+        }
+        imageView8.setOnClickListener {
+            val intent = Intent(activity, DetailActivity1::class.java)
+            startActivity(intent)
+        }
+        imageView10.setOnClickListener {
+            val intent = Intent(activity, DetailActivity1::class.java)
+            startActivity(intent)
+        }
+        return view
+
     }
 
     companion object {

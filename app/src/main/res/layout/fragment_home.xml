@@ -31,14 +31,7 @@
                 android:hint="    search" />
         </com.google.android.material.textfield.TextInputLayout>
 
-        <ImageView
-            android:id="@+id/imageViewH1"
-            android:layout_width="407dp"
-            android:layout_height="50dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/status_bars" />
+
 
         <ImageView
             android:id="@+id/imageViewH2"

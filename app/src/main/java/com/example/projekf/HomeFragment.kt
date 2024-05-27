@@ -1,10 +1,13 @@
 package com.example.projekf
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
+import android.widget.TextView
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -33,8 +36,48 @@ class HomeFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false)
+        val view = inflater.inflate(R.layout.fragment_home, container, false)
+
+        // Find the ImageView by its ID
+        val imageViewH2 = view.findViewById<ImageView>(R.id.imageViewH2)
+        val textViewH4 = view.findViewById<TextView>(R.id.textViewH4)
+
+        val imageButtonH7 = view.findViewById<ImageView>(R.id.imageButtonH7)
+        val imageButtonH8 = view.findViewById<ImageView>(R.id.imageButtonH8)
+        val imageButtonH9 = view.findViewById<ImageView>(R.id.imageButtonH9)
+        val imageButtonH10 = view.findViewById<ImageView>(R.id.imageButtonH10)
+
+        // Set an OnClickListener to navigate to FavoriteActivity
+        imageViewH2.setOnClickListener {
+            val intent = Intent(activity, FavoriteActivity::class.java)
+            startActivity(intent)
+
+        }
+        textViewH4.setOnClickListener {
+            val offerFragment = OfferFragment()
+            val transaction = requireActivity().supportFragmentManager.beginTransaction()
+            transaction.replace(R.id.frame_layout, offerFragment)
+            transaction.addToBackStack(null)
+            transaction.commit()
+        }
+
+        imageButtonH7.setOnClickListener {
+            val intent = Intent(activity, DetailActivity1::class.java)
+            startActivity(intent)
+        }
+        imageButtonH8.setOnClickListener {
+            val intent = Intent(activity, DetailActivity1::class.java)
+            startActivity(intent)
+        }
+        imageButtonH9.setOnClickListener {
+            val intent = Intent(activity, DetailActivity1::class.java)
+            startActivity(intent)
+        }
+        imageButtonH10.setOnClickListener {
+            val intent = Intent(activity, DetailActivity1::class.java)
+            startActivity(intent)
+        }
+        return view
     }
 
     companion object {
