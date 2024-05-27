@@ -56,7 +56,7 @@ class HomeFragment : Fragment() {
         textViewH4.setOnClickListener {
             val offerFragment = OfferFragment()
             val transaction = requireActivity().supportFragmentManager.beginTransaction()
-            transaction.replace(R.id.frame_layout, offerFragment)
+            transaction.replace(R.id.offer, offerFragment)
             transaction.addToBackStack(null)
             transaction.commit()
         }
