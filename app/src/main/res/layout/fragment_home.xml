@@ -227,7 +227,7 @@
                     android:backgroundTint="@color/white"
                     app:srcCompat="@drawable/product_icon" />
                 <TextView
-                    android:id="@+id/textViewCT5"
+                    android:id="@+id/textViewCT55"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
